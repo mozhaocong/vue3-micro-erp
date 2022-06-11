@@ -19,6 +19,9 @@
         "paths": {
             "@/*": [
                 "src/*"
+            ],
+            "@child/*": [
+                "child/*"
             ]
         },
         "lib": [
@@ -32,8 +35,12 @@
         "src/**/*.ts",
         "src/**/*.tsx",
         "src/**/*.vue",
-        "tests/**/*.ts",
         "src/*.vue",
+        "child/**/*.ts",
+        "child/**/*.tsx",
+        "child/**/*.vue",
+        "child/*.vue",
+        "tests/**/*.ts",
         "vite.config.ts"
     ],
     "exclude": [

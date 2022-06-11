@@ -5,8 +5,6 @@ import eslintPlugin from 'vite-plugin-eslint'
 import visualizer from 'rollup-plugin-visualizer'
 import externalGlobals from 'rollup-plugin-external-globals'
 import { createHtmlPlugin } from 'vite-plugin-html'
-//方便引入cdn 不便于自定义script标签
-// import importToCDN from 'vite-plugin-cdn-import'
 import commonjs from 'rollup-plugin-commonjs'
 import { microViteSub } from './src/plugins'
 
@@ -96,11 +94,12 @@ export default ({ mode }: any) => {
 		resolve: {
 			alias: {
 				'@': '/src',
+				'@child': '/child',
 			},
 		},
 		server: {
 			host: '0.0.0.0',
-			port: 8991,
+			port: 8910,
 			// 是否开启 https
 			https: false,
 			proxy: {
