@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
+    "dev:dev": "vite --mode dev",
     "dev:devMicroChild": "vite --mode devMicroChild",
     "build:dev": "vite build --mode dev",
     "build": "vite build",
