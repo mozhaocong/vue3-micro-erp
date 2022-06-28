@@ -42,6 +42,9 @@ export default ({ mode }: any) => {
 		} src="https://cdn.staticfile.org/dayjs/1.11.2/dayjs.min.js" crossorigin ></script>
     <script   ${
 			viteType === 'ViteChild' ? 'exclude' : 'global'
+		} src="https://cdn.bootcdn.net/ajax/libs/dayjs/1.11.2/locale/zh-cn.min.js" crossorigin ></script>
+    <script   ${
+			viteType === 'ViteChild' ? 'exclude' : 'global'
 		} src="https://cdn.staticfile.org/ant-design-vue/3.2.3/antd.min.js" crossorigin ></script>
 	`
 
