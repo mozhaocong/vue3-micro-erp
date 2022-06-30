@@ -8,6 +8,8 @@
     "build:dev": "vite build --mode dev",
     "build": "vite build",
     "build:buildMicroChild": "vite build --mode buildMicroChild",
+    "build:buildMicroChildProd": "vite build --mode buildMicroChildProd",
+    "build:buildProd": "vite build --mode buildProd",
     "serve": "vite preview",
     "lint": "eslint src --fix"
   },
